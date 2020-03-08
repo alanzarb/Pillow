@@ -1,14 +1,16 @@
 """
     reverse_list
 """
-def reverse_list(elems): 
-    new_list = [] 
-    for i in range(len(elems)): 
-        # (Fill in the missing line here) 
-        new_list.append(elems[len(elems) - i - 1]) 
-    return new_list 
 
-lst = [1,4,7,9,12,14] 
+
+def reverse_list(elems):
+    new_list = []
+    for i in range(len(elems)):
+        # (Fill in the missing line here)
+    return new_list
+
 
 if __name__ == "__main__":
-    print (reverse_list(lst))
+    lst = [1, 4, 7, 9, 12, 14]
+    print(reverse_list(lst))
+    
