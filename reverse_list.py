@@ -1,3 +1,6 @@
+"""
+    reverse_list
+"""
 def reverse_list(elems): 
     new_list = [] 
     for i in range(len(elems)): 
